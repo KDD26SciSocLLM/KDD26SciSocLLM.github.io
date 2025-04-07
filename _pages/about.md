@@ -23,6 +23,7 @@ The objective of this workshop is to explore recent advances in both the theoret
 
 We particularly encourage contributions that demonstrate the practical applications of LLMs in addressing real-world challenges. Relevant topics, focused on scientific and societal applications, **include but are not limited to** the following list:
 
+- Adapting language models to specific domains
 - Pre-training scientific foundation models
 - Development of multimodal language models that integrate modalities like images, graphs, and time series
 - Utilization of retrieval-augmented generation techniques
