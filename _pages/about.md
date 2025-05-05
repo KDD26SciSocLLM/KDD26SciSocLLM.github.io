@@ -64,7 +64,7 @@ For questions regarding submissions, please contact us at: kdd25scisocllm@gmail.
 The important dates of the workshop should not be later than:
 
 * Workshop Paper Submission Dates:
-  - Workshop Paper Submission: May 8th, 2025
+  - Workshop Paper Submission: ~~May 8th~~ May 19th, 2025
   - Workshop Paper Notification: June 8th, 2025
 
 
