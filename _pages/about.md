@@ -72,6 +72,6 @@ The important dates of the workshop should not be later than:
   - Workshop Website and CFP: April 15th, 2025
   - Notifications to Workshop Chairs (number of papers, acceptance rate, etc.): June 15th, 2025
   - Final Submission of Workshop Program and Materials and Full Workshop Websites Online: June 24th, 2025
-  - Workshop Date: August 6th, 2025
+  - Workshop Date: August 4th, 2025
 
 All submission deadlines are end-of-day in the **[Anywhere on Earth (AoE)](https://time.is/Anywhere_on_Earth)** time zone.
