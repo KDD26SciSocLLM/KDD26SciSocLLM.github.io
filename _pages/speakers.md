@@ -2,22 +2,25 @@
 layout: profiles
 permalink: /speakers/
 title: Speakers
-description: The information about the SPEAKERS will be released soon.
+description: BIO OF SPEAKERS
 nav: true
 nav_order: 5
 profiles:
   - align: left
     image: JianTang.jpg
-    content: speaker_1.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p class="name">Jian Tang</p>
-      <p class="institution">Montreal Institute for Learning Alogorithms</p>
-  - align: left
-    image: WK.jpg
-    content: speaker_2.md
     image_circular: true
     more_info: >
-      <p class="name">Wang-cheng Kang</p>
-      <p class="institution">Google Deepmind</p>
+      <p class="name">Jian Tang</p>
+      <p class="institution">Montreal Institute for Learning Algorithms</p>
+    content: >
+      {% include_relative speaker_1.md %}
+
+  - align: left
+    image: WK.jpg
+    image_circular: true
+    more_info: >
+      <p class="name">Wang-Cheng Kang</p>
+      <p class="institution">Google DeepMind</p>
+    content: >
+      {% include_relative speaker_2.md %}
 ---
