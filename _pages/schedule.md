@@ -31,3 +31,19 @@ Keynote Speakers & Panelists. The keynote speakers from both academia and indust
 
 Submissions & Review Process. The workshop CFP is for paper submissions that will undergo the standard double-blind peerreview process to avoid biases. We will utilize OpenReview for managing submissions and reviews. We will invite a well-experienced set of program committee members for SciSoc LLM to first guarantee each paper submission will be reviewed by at least two PC members and second to ensure an informed and fair evaluation of the work being submitted. Based upon the reviews provided by PC members, the final recommendation of acceptance or rejection to SciSoc LLM at KDD’25 will be made by the workshop organizers. The detailed review comments and notification letter will be sent to the authors accordingly along with detailed information as to whether they have been accepted for an oral or poster presentation (as noted above in the tentative workshop schedule).
 
+#### Presentation Order
+
+##### In-Person
+1. Dissecting Judicial Reasoning in U.S. Copyright Damage Awards: A Discourse‑Based LLM Analysis. Pei‑Chi Lo, Yi Lu. 
+2. Scientific Productivity and Practice in the Era of Large Language Models. Keigo Kusumegi, Xinyu Yang, Paul Ginsparg, Yian Yin
+3. Predicting Field Experiments with Large Language Models. Yaoyu Chen, Yuheng Hu, Yingda Lu.
+4. Building Domain‑Specific Small Language Models on a Shoestring via Guided Data Generation. Aman Kumar, Ekant Muljibhai Amin, Xian Yeow Lee, Lasitha Vidyaratne, Ahmed K. Farahat, Yuta Koreeda, Chetan Gupta.
+5. GenAI‑DrawIO‑Creator: A Framework for Automated Diagram Generation. Jinze Yu, Dayuan Jiang, Guanghui Wang, Xuefeng Liu.
+6. Evaluating Large Language Models with Psychometrics. Yuan Li, Yue Huang, Hongyi Wang, Ying Cheng, Xiangliang Zhang, James Zou, Lichao Sun.
+
+#### Online
+7. Collective Social Behaviors in LLMs: An Analysis of LLMs Social Networks. Farnoosh Hashemi, Michael Macy. [Video Link](https://drive.google.com/file/d/1cRtheaxEDMnuqoLnLsTkODyo0QrTls0s/view?usp=sharing)
+8. ChatWise: A Strategy‑Guided Chatbot for Enhancing Cognitive Support in Older Adults. Zhengbang Yang, Junyuan Hong, Yijiang Pang, Jiayu Zhou, Zhuangdi Zhu.
+
+
+
