@@ -42,8 +42,9 @@ Submissions & Review Process. The workshop CFP is for paper submissions that wil
 6. Evaluating Large Language Models with Psychometrics. Yuan Li, Yue Huang, Hongyi Wang, Ying Cheng, Xiangliang Zhang, James Zou, Lichao Sun.
 
 #### Online
-7. Collective Social Behaviors in LLMs: An Analysis of LLMs Social Networks. Farnoosh Hashemi, Michael Macy. [Video Link](https://drive.google.com/file/d/1cRtheaxEDMnuqoLnLsTkODyo0QrTls0s/view?usp=sharing)
-8. ChatWise: A Strategy‑Guided Chatbot for Enhancing Cognitive Support in Older Adults. Zhengbang Yang, Junyuan Hong, Yijiang Pang, Jiayu Zhou, Zhuangdi Zhu.
+7. CCSBench: Evaluating Compositional Controllability in LLMs for Scientific Document Summarization Yixi Ding, Jiaying Wu, Tongyao Zhu, Yanxia Qin, Qian Liu, Min-Yen Kan. [Video Link](https://drive.google.com/file/d/1cRtheaxEDMnuqoLnLsTkODyo0QrTls0s/view?usp=sharing)
+<!-- 8. Collective Social Behaviors in LLMs: An Analysis of LLMs Social Networks. Farnoosh Hashemi, Michael Macy. 
+9. ChatWise: A Strategy‑Guided Chatbot for Enhancing Cognitive Support in Older Adults. Zhengbang Yang, Junyuan Hong, Yijiang Pang, Jiayu Zhou, Zhuangdi Zhu.  -->
 
 
 
