@@ -43,7 +43,7 @@ Submissions & Review Process. The workshop CFP is for paper submissions that wil
 
 #### Online
 7. CCSBench: Evaluating Compositional Controllability in LLMs for Scientific Document Summarization. Yixi Ding, Jiaying Wu, Tongyao Zhu, Yanxia Qin, Qian Liu, Min-Yen Kan. [Video Link](https://drive.google.com/file/d/1cRtheaxEDMnuqoLnLsTkODyo0QrTls0s/view?usp=sharing)
-8. AutoSolvate-Agent: An Autonomous Agent for GPU-accelerated Solution-phase Quantum Chemistry. Xu Chen, Fangning Ren, Dazhou Yu, Lechen Dong, Fang Liu[Video Link](https://drive.google.com/file/d/1piX-b4-tdGtp5p82JrOmlCo8NAT25xNi/view?usp=drive_link)
+8. AutoSolvate-Agent: An Autonomous Agent for GPU-accelerated Solution-phase Quantum Chemistry. Xu Chen, Fangning Ren, Dazhou Yu, Lechen Dong, Fang Liu. [Video Link](https://drive.google.com/file/d/1piX-b4-tdGtp5p82JrOmlCo8NAT25xNi/view?usp=drive_link)
    
 
 
