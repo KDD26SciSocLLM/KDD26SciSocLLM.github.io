@@ -10,8 +10,8 @@ profiles:
     image: huaxiu_yao.jpg
     image_circular: true
     more_info: >
-      <p class="name">Jian Tang</p>
-      <p class="institution">Montreal Institute for Learning Algorithms</p>
+      <p class="name">Huaxiu Yao</p>
+      <p class="institution">University of North Carolina at Chapel Hill</p>
       
 
   - align: left
