@@ -28,7 +28,7 @@ Autonomous agents and LLMs for scientific and societal advances (SciSoc Agents &
 
 The objective of this workshop is to explore recent advances in both the theoretical foundations and practical applications on science and society of agentic AI and LLMs. We propose the SciSoc Agents & LLMs Workshop at KDD’26 to serve as a platform where academic researchers and industry professionals can present and discuss cutting-edge research, real-world implementations, and new applications of SciSoc Agents & LLMs. This timing aligns perfectly with the current momentum in Agentic AI and LLM research and application, making it an essential event for stakeholders aiming to shape the future of scientific and societal advancements. Moreover, the interdisciplinary nature of KDD encourages a broad spectrum of ideas and solutions, which creates an optimal environment for investigating the extensive applications of LLMs. This workshop will also serve as a nice complement to the potential LLM Day at KDD’26, providing a specialized focus on scientific and societal advances and fostering interactions among participants.
 
-### TOPICS
+### TOPICS 
 
 We particularly encourage contributions that demonstrate the practical applications of Large Language Models (LLMs) and autonomous agents in addressing real-world challenges. Relevant topics, focused on scientific and societal applications, **include but are not limited to** the following list:
 
