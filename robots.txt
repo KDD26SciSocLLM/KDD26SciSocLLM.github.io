@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kdd25scisocllm.github.io/sitemap.xml
+Sitemap: https://kdd26scisocllm.github.io/sitemap.xml
