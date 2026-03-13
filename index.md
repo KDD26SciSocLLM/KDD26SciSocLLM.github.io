@@ -145,7 +145,7 @@ about: |
       <ul style="padding-left: 20px;">
         <li style="margin-bottom: 12px;">Enhancing <strong>code generation</strong> for scientific practitioners</li>
         <li style="margin-bottom: 12px;"><strong>Responsible, trustworthy, and ethical</strong> considerations of agent-based AI in society</li>
-        <li style="margin-bottom: 12px;"><strong>Benchmarks, datasets, and evaluation </strong> protocols for agentic AI and LLM-based agents</li>
+        <li style="margin-bottom: 12px;"><strong>Benchmarks, datasets, and evaluation</strong> protocols for agentic AI and LLM-based agents</li>
         <li style="margin-bottom: 12px;"><strong>Agentic workflows</strong> for AI-driven experimentation, hypothesis generation, and validation in healthcare, life sciences, and scientific discovery</li>
         <li style="margin-bottom: 12px;"><strong>Self-evolving agents</strong> with autonomous learning, adaptation, and continual improvement</li>
       </ul>
@@ -183,11 +183,11 @@ schedule:
     title: "Coffee break / Social Networking"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
   - time: "15:30 - 16:10"
+    title: "Keynote III"
+  - time: "16:10 - 16:40"
     title: "Contributed Research Oral Talks II"
-  - time: "16:00 - 16:10"
+  - time: "16:40 - 17:00"
     title: "Best Paper Award Ceremony & Final Remarks"
-  - time: "16:10 - 17:00"
-    title: "Contributed Research Poster Session"
 
 schedule_details: |
   ### Selection Process 
