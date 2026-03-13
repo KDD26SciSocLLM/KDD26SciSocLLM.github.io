@@ -1,7 +1,7 @@
 ---
 layout: workshop
 year: 2026
-date: August 4th, 2026
+date: August 9th, 2026
 location: KDD 2026
 openreview: "#"
 show_cfp: true
@@ -45,7 +45,7 @@ cfp:
     - event: Final Submission of Program
       date: June 24th, 2026
     - event: Workshop Date
-      date: August 4th, 2026
+      date: August 9th, 2026
 
 speakers:
   - name: To be announced.
