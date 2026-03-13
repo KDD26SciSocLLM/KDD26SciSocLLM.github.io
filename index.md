@@ -115,44 +115,55 @@ news:
 
 about: |
   <p align="center">
-    <img src="/assets/images/KDD26-Hero1-100.png" alt="KDD 2026 SciSoc LLM" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 30px;">
+    <img src="/assets/images/KDD26-Hero1-100.png" alt="KDD 2026 SciSoc LLM" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 40px;">
   </p>
   
-  <div class="alert alert-primary" role="alert" style="text-align: center; margin-top: 30px; margin-bottom: 30px; border-radius: 10px;">
-    <h5 style="margin-bottom: 10px;">📢 Call for Papers is OPEN!</h5>
-    <p style="margin-bottom: 15px; font-size: 1.1em;">
-      <strong>Paper Submission Deadline:</strong> May 23rd, 2026 (AoE) <br>
-      <strong>Notification:</strong> June 8th, 2026
-    </p>
-    <a href="#cfp" class="btn btn-primary" style="border-radius: 20px; padding: 8px 20px;">Submit via OpenReview (Link Coming Soon)</a>
-  </div>
+  <h4 style="font-weight: 600; margin-top: 40px; margin-bottom: 20px; border-left: 4px solid #bf5700; padding-left: 12px; color: #43485c;">Overview</h4>
 
-  ### Overview
+  <p class="lead" style="font-size: 1.15rem; font-weight: 500; color: #43485c;">As LLMs such as GPT-4 continue to redefine boundaries in both complexity and capability, their integration into agent-based systems within the scientific and societal domains is not just beneficial but essential.</p>
 
-  As LLMs such as GPT-4 continue to redefine boundaries in both complexity and capability, their integration into agent-based systems within the scientific and societal domains is not just beneficial but essential. In particular, Agentic AI systems and Large Language Models (LLMs) have demonstrated substantial value in orchestrating complex pipelines, reasoning over large datasets, and generating insights across various fields such as healthcare, environmental science, education, public policy, and social sciences. By bringing together experts and enthusiasts from diverse fields, the workshop aims to foster a comprehensive understanding of how LLMs and agent-based architectures jointly redefine traditional research methodologies. Participants will explore novel agentic frameworks, multi-agent collaboration, and real-world deployments to harness the power of LLM-powered agents for greater efficiency and innovation in their respective fields, potentially catalyzing a new era of scientific and societal advancement. Therefore, we propose the Second SciSoc Agents & LLMs Workshop at KDD'26: "Agentic AI for Scientific and Societal Advances" aims to explore the profound implications and potential of Agentic AI and LLMs in driving forward scientific inquiry and addressing critical societal challenges.
+  In particular, **Agentic AI systems and Large Language Models (LLMs)** have demonstrated substantial value in orchestrating complex pipelines, reasoning over large datasets, and generating insights across various fields such as healthcare, environmental science, education, public policy, and social sciences. 
 
-  ### Objectives
+  By bringing together experts and enthusiasts from diverse fields, the workshop aims to foster a comprehensive understanding of how LLMs and agent-based architectures jointly redefine traditional research methodologies. Participants will explore novel agentic frameworks, multi-agent collaboration, and real-world deployments to harness the power of LLM-powered agents for greater efficiency and innovation in their respective fields.
+  
+  Therefore, we propose the **Second SciSoc Agents & LLMs Workshop at KDD'26: "Agentic AI for Scientific and Societal Advances"** to explore the profound implications and potential of Agentic AI and LLMs in driving forward scientific inquiry and addressing critical societal challenges.
 
-  Autonomous agents and LLMs for scientific and societal advances (SciSoc Agents & LLM) represent an evolving concept that shifts the focus from simple question-answer tasks to broader and more impactful applications in science and society. Autonomous agents and LLMs have demonstrated capabilities such as solving university-level math problems by generating solution code, supporting language translation, and answering questions on bar exams with high accuracy, all without additional training. Given the expanded scope and increasing power of agents and LLMs, their potential to significantly impact scientific discovery and societal progress is becoming increasingly evident. Agentic AI and LLMs have opened up vast opportunities for scaling and accelerating advancements across scientific and social domains. For example, MetaAI introduced the first science-specific LLM designed to support scientific discovery in research, while LLMs have also enabled large-scale computational social science research. These advancements have found LLMs’ potential for scientific and societal advances. 
+  <h4 style="font-weight: 600; margin-top: 50px; margin-bottom: 20px; border-left: 4px solid #bf5700; padding-left: 12px; color: #43485c;">Objectives</h4>
 
-  The objective of this workshop is to explore recent advances in both the theoretical foundations and practical applications on science and society of agentic AI and LLMs. We propose the SciSoc Agents & LLMs Workshop at KDD’26 to serve as a platform where academic researchers and industry professionals can present and discuss cutting-edge research, real-world implementations, and new applications of SciSoc Agents & LLMs. This timing aligns perfectly with the current momentum in Agentic AI and LLM research and application, making it an essential event for stakeholders aiming to shape the future of scientific and societal advancements. Moreover, the interdisciplinary nature of KDD encourages a broad spectrum of ideas and solutions, which creates an optimal environment for investigating the extensive applications of LLMs. This workshop will also serve as a nice complement to the potential LLM Day at KDD’26, providing a specialized focus on scientific and societal advances and fostering interactions among participants.
+  Autonomous agents and LLMs for scientific and societal advances represent an evolving concept that shifts the focus from simple question-answer tasks to broader and more impactful applications. They have demonstrated capabilities such as solving university-level math problems by generating solution code, supporting language translation, and answering questions on bar exams with high accuracy, all without additional training. 
 
-  ### Topics 
+  Given the expanded scope and increasing power of agents and LLMs, their potential to significantly impact scientific discovery and societal progress is becoming increasingly evident. Agentic AI and LLMs have opened up vast opportunities for scaling and accelerating advancements across scientific and social domains. For example, **MetaAI** introduced the first science-specific LLM designed to support scientific discovery in research, while LLMs have also enabled large-scale computational social science research. 
+
+  **The objective of this workshop is to explore recent advances in both the theoretical foundations and practical applications on science and society of agentic AI and LLMs.** We propose this workshop to serve as a platform where academic researchers and industry professionals can present and discuss cutting-edge research, real-world implementations, and new applications. This timing aligns perfectly with the current momentum in the field, making it an essential event for stakeholders aiming to shape the future of scientific and societal advancements. Moreover, the interdisciplinary nature of KDD encourages a broad spectrum of ideas and solutions, creating an optimal environment for investigating these applications.
+
+  <h4 style="font-weight: 600; margin-top: 50px; margin-bottom: 20px; border-left: 4px solid #bf5700; padding-left: 12px; color: #43485c;">Topics</h4>
 
   We particularly encourage contributions that demonstrate the practical applications of Large Language Models (LLMs) and autonomous agents in addressing real-world challenges. Relevant topics, focused on scientific and societal applications, **include but are not limited to** the following list:
 
-  - Pre-training and fine-tuning of foundation models for agent-based scientific applications 
-  - Multimodal agentic systems integrating text, images, graphs, time series, and structured data 
-  - Retrieval-augmented and tool-augmented agents for scientific and societal tasks
-  - Integration of LLMs with tools, memory, planning, and environment interaction
-  - Active learning strategies with LLMs in practical applications
-  - Enhancing code generation for scientific practitioners
-  - Responsible, trustworthy, and ethical considerations of agent-based AI in society
-  - Benchmarks, datasets, and evaluation protocols for agentic AI and LLM-based agents 
-  - Agentic workflows for AI-driven experimentation, hypothesis generation, and validation
-  - Self-evolving agents with autonomous learning, adaptation, and continual improvement 
+  <div class="row" style="margin-top: 25px; margin-bottom: 25px;">
+    <div class="col-md-6">
+      <ul style="padding-left: 20px;">
+        <li style="margin-bottom: 12px;"><strong>Pre-training and fine-tuning</strong> of foundation models for agent-based scientific applications</li>
+        <li style="margin-bottom: 12px;"><strong>Multimodal agentic systems</strong> integrating text, images, graphs, time series, and structured data</li>
+        <li style="margin-bottom: 12px;"><strong>Retrieval-augmented and tool-augmented</strong> agents for scientific and societal tasks</li>
+        <li style="margin-bottom: 12px;">Integration of LLMs with tools, memory, planning, and environment interaction</li>
+        <li style="margin-bottom: 12px;">Active learning strategies with LLMs in practical applications</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul style="padding-left: 20px;">
+        <li style="margin-bottom: 12px;">Enhancing <strong>code generation</strong> for scientific practitioners</li>
+        <li style="margin-bottom: 12px;"><strong>Responsible, trustworthy, and ethical</strong> considerations of agent-based AI in society</li>
+        <li style="margin-bottom: 12px;">Benchmarks, datasets, and evaluation protocols for agentic AI and LLM-based agents</li>
+        <li style="margin-bottom: 12px;"><strong>Agentic workflows</strong> for AI-driven experimentation, hypothesis generation, and validation</li>
+        <li style="margin-bottom: 12px;">Self-evolving agents with autonomous learning, adaptation, and continual improvement</li>
+      </ul>
+    </div>
+  </div>
 
-  We enthusiastically invite submissions from diverse fields at the nexus of AI, science, and society, including but not limited to healthcare, environmental science, education, public policy, social science, chemistry, and biology.
+  <div style="background-color: #fafafa; padding: 20px 25px; border-radius: 8px; border-left: 4px solid #bf5700; margin-top: 30px;">
+    We enthusiastically invite submissions from diverse fields at the nexus of AI, science, and society, including but not limited to <strong>healthcare, environmental science, education, public policy, social science, chemistry, and biology</strong>.
+  </div>
 
 program_committee:
   - name: To be announced.

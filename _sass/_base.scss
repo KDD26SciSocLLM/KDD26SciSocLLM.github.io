@@ -8,13 +8,19 @@ html,
 body {
   width: 100%;
 }
-
 body {
   font-family: $base-font-family;
-  font-size: $base-font-size;
-  color: $text-color;
+  font-size: 16px;          // 确保基础字号够大
+  color: $text-color;       // 使用变量里的高级深蓝灰
   background: #fff;
-  line-height: 1.6;
+  line-height: 1.8;         // 【关键修改】把 1.6 改成 1.8，字间距瞬间拉开，呼吸感就出来了！
+  font-weight: 400;         // 确保字重正常
+}
+
+// 【新增】专门优化段落排版
+p {
+  margin-bottom: 1.5rem;    // 让段落与段落之间有明显的留白
+  color: #43485c;           // 强制段落使用高级灰
 }
 
 a {
@@ -30,4 +36,41 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+/* --- Header & Navbar 局部暗黑定制 (终极版) --- */
+
+/* 1. 彻底拉黑导航栏，消灭白条 */
+.navbar.sticky-header,
+.sticky-header.is-sticky {
+  background: #111827 !important; /* 强制纯黑底色，覆盖一切白底或渐变 */
+  background-color: #111827 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important; /* 换成暗黑风格的阴影 */
+  border-bottom: 1px solid #333; /* 加一条极细的暗色分界线 */
+}
+
+/* 2. 强制让导航栏里的所有文字变成纯白 */
+.navbar .navbar-brand, 
+.navbar .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* 3. 鼠标悬浮时，文字变成你的主色调 (橙色) */
+.navbar .navbar-nav .nav-link:hover {
+  color: $primary-color !important;
+}
+
+/* 4. 海报区域暗黑化 (保持不变) */
+.welcome-hero {
+  color: #ffffff; 
+  background-color: #111827; 
+  
+  h2, h3, h4, h5, h6, p {
+    color: #ffffff !important; 
+  }
+
+  .info-wrapper i {
+    color: $primary-color; 
+    margin-right: 5px;
+  }
 }
