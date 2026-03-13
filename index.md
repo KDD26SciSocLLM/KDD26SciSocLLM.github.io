@@ -179,14 +179,14 @@ schedule:
     title: "Contributed Research Oral Talks I"
   - time: "14:20 - 15:00"
     title: "Keynote II"
-  - time: "15:00 - 15:30"
-    title: "Coffee break / Social Networking"
+  - time: "15:00 - 15:40"
+    title: "Break/Poster Session"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
-  - time: "15:30 - 16:10"
+  - time: "15:40 - 16:20"
     title: "Keynote III"
-  - time: "16:10 - 16:40"
+  - time: "16:20 - 16:50"
     title: "Contributed Research Oral Talks II"
-  - time: "16:40 - 17:00"
+  - time: "16:50 - 17:00"
     title: "Best Paper Award Ceremony & Final Remarks"
 
 schedule_details: |
