@@ -1,0 +1,114 @@
+<section id="organizers" class="bg-light pb-5">
+  <div class="container">
+    
+    <div class="row justify-content-center pt-5">
+      <div class="section-heading col-md-10 text-center">
+        <h3>Organizers</h3>
+        <div class="separator-div mx-auto"></div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row justify-content-center">
+          {% for organizer in page.organizers %}
+          <div class="col-6 col-md-4 col-lg-3 text-center mb-4">
+            <div class="single-organizer">
+              {% if organizer.website %}
+              <a href="{{ organizer.website }}" target="_blank" style="text-decoration: none; color: inherit;">
+              {% endif %}
+                <img
+                  src="{{ '/assets/img/' | append: organizer.image | relative_url }}"
+                  alt="{{ organizer.name }}"
+                  class="img-fluid rounded mb-3 shadow-sm"
+                  style="width: 150px; height: 150px; object-fit: cover;"
+                />
+                <h6 class="mb-1">{{ organizer.name }}</h6>
+              {% if organizer.website %}
+              </a>
+              {% endif %}
+              <p class="text-muted small">{{ organizer.affiliation }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center pt-5 mt-4 border-top">
+      <div class="section-heading col-md-10 text-center">
+        <h3>Advisory Committee</h3>
+        <div class="separator-div mx-auto"></div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row justify-content-center">
+          
+          <div class="col-6 col-md-4 text-center mb-4">
+            <a href="https://subhomukherjee.com/" target="_blank" style="text-decoration: none; color: inherit;">
+              <img src="{{ '/assets/img/SM.webp' | relative_url }}" alt="Subhabrata Mukherjee" class="img-fluid rounded mb-3 shadow-sm" style="width: 160px; height: 160px; object-fit: cover;" />
+              <h6 class="mb-1 hover-name">Subhabrata Mukherjee</h6>
+            </a>
+            <p class="text-muted small">Hippocratic AI</p>
+          </div>
+
+          <div class="col-6 col-md-4 text-center mb-4">
+            <a href="https://siebelschool.illinois.edu/about/people/faculty/hengji" target="_blank" style="text-decoration: none; color: inherit;">
+              <img src="{{ '/assets/img/heng_ji.jpeg' | relative_url }}" alt="Heng Ji" class="img-fluid rounded mb-3 shadow-sm" style="width: 160px; height: 160px; object-fit: cover;" />
+              <h6 class="mb-1">Heng Ji</h6>
+            </a>
+            <p class="text-muted small">University of Illinois Urbana-Champaign</p>
+          </div>
+
+          <div class="col-6 col-md-4 text-center mb-4">
+            <a href="https://www.cs.unc.edu/~mbansal/" target="_blank" style="text-decoration: none; color: inherit;">
+              <img src="{{ '/assets/img/bansal.jpeg' | relative_url }}" alt="Mohit Bansal" class="img-fluid rounded mb-3 shadow-sm" style="width: 160px; height: 160px; object-fit: cover;" />
+              <h6 class="mb-1">Mohit Bansal</h6>
+            </a>
+            <p class="text-muted small">UNC Chapel Hill</p>
+          </div>
+
+          <div class="col-6 col-md-4 text-center mb-4">
+            <a href="https://engineering.virginia.edu/faculty/aidong-zhang" target="_blank" style="text-decoration: none; color: inherit;">
+              <img src="{{ '/assets/img/ADZ.webp' | relative_url }}" alt="Aidong Zhang" class="img-fluid rounded mb-3 shadow-sm" style="width: 160px; height: 160px; object-fit: cover;" />
+              <h6 class="mb-1">Aidong Zhang</h6>
+            </a>
+            <p class="text-muted small">University of Virginia</p>
+          </div>
+
+          <div class="col-6 col-md-4 text-center mb-4">
+            <a href="https://web.cs.ucla.edu/~weiwang/" target="_blank" style="text-decoration: none; color: inherit;">
+              <img src="{{ '/assets/img/WW.jpg' | relative_url }}" alt="Wei Wang" class="img-fluid rounded mb-3 shadow-sm" style="width: 160px; height: 160px; object-fit: cover;" />
+              <h6 class="mb-1">Wei Wang</h6>
+            </a>
+            <p class="text-muted small">University of California, Los Angeles</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    {% if page.web_chairs %}
+    <div class="row justify-content-center pt-5 mt-4 border-top">
+      <div class="section-heading col-md-10 text-center">
+        <h3>Web Chairs</h3>
+        <div class="separator-div mx-auto"></div>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-md-10">
+        <div class="row justify-content-center">
+          {% for chair in page.web_chairs %}
+          <div class="col-md-6 mb-3">
+             <a href="{{ chair.website }}" target="_blank" style="text-decoration: none; font-weight: bold; color: #007bff;">{{ chair.name }}</a>
+             <br>
+             <span class="text-muted small">{{ chair.affiliation }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>

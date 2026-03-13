@@ -1,0 +1,41 @@
+<section id="cfp">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        
+        <div class="section-heading">
+          <h3>Call for Papers</h3>
+          <div class="separator-div"></div>
+        </div>
+
+        {% if page.cfp.intro %} 
+          {{ page.cfp.intro | markdownify }} 
+        {% endif %}
+
+        {% if page.cfp.dates %}
+        <h4 id="dates" style="margin-top: 40px; margin-bottom: 20px;">Important Dates</h4>
+        <p>
+          All submission deadlines are end-of-day in the 
+          <a href="https://time.is/Anywhere_on_Earth" target="_blank">Anywhere on Earth (AoE)</a> time zone.
+        </p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-11">
+            <table class="table table-striped">
+              <tbody>
+                {% for date in page.cfp.dates %}
+                <tr {% if date.event contains "Submission" %}class="highlight-row"{% endif %}>
+                  <td class="font-weight-bold" style="width: 60%">{{ date.event }}</td>
+                  <td style="width: 40%">{{ date.date }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</section>

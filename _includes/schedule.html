@@ -1,0 +1,52 @@
+{% if page.schedule %}
+<section id="schedule" class="bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        
+        <div class="section-heading text-center">
+          <h3>Schedule</h3>
+          <div class="separator-div mx-auto"></div>
+        </div>
+
+        {% if page.schedule_intro %}
+        <div class="schedule-intro mb-4">
+          {{ page.schedule_intro | markdownify }}
+        </div>
+        {% endif %}
+
+        <table class="table table-bordered table-hover bg-white shadow-sm">
+          <thead class="thead-light">
+            <tr>
+              <th style="width: 25%;">Time (AoE)</th>
+              <th style="width: 75%;">Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in page.schedule %}
+            <tr class="{% if item.highlight %}table-{{ item.highlight }}{% endif %}">
+              <td class="font-weight-bold align-middle">{{ item.time }}</td>
+              <td>
+                {% if item.speaker %}
+                <strong>{{ item.title }}</strong><br />
+                <span class="text-muted">{{ item.speaker }}</span>
+                {% else %} 
+                <strong>{{ item.title }}</strong>
+                {% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        {% if page.schedule_details %}
+        <div class="schedule-details mt-5">
+          {{ page.schedule_details | markdownify }}
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

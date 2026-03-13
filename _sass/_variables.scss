@@ -1,39 +1,29 @@
-/*******************************************************************************
- * Variables used throughout the theme.
- * To adjust anything, simply edit the variables below and rebuild the theme.
- ******************************************************************************/
-
 // Colors
-$red-color:           #FF3636 !default;
-$red-color-dark:      #B71C1C !default;
-$orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
-$cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
-$green-color:         #00ab37 !default;
-$green-color-lime:    #B7D12A !default;
-$green-color-dark:    #009f06 !default;
-$green-color-light:   #ddffdd !default;
-$green-color-bright:  #11D68B !default;
-$purple-color:        #B509AC !default;
-$light-purple-color:  lighten($purple-color, 25%);
-$pink-color:          #f92080 !default;
-$pink-color-light:    #ffdddd !default;
-$yellow-color:        #efcc00 !default;
+$primary-color: #bf5700;
+$secondary-color: #fbd935;
+$text-color: #43485c;
+$text-light: #636a82;
+$text-dark: #333;
+$background-light: #fafafa;
+$link-color: $primary-color;
+$link-hover: darken($primary-color, 10%);
 
-$grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
+// Typography
+$base-font-family: "Helvetica Neue", sans-serif;
+$heading-font-family: $base-font-family;
+$base-font-size: 16px;
+$large-font-size: 20px;
+$heading-font-size: 32px;
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+// Spacing
+$section-padding: 60px;
+$card-padding: 24px;
+$spacing-unit: 8px;
 
-// Theme colors
+// Borders
+$border-radius: 8px;
+$border-color: #ddd;
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
-
-// Font awesome location
-$fa-font-path: "../webfonts";
+// Transitions
+$transition-fast: 0.2s ease-out;
+$transition-normal: 0.3s ease-in-out;

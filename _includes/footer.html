@@ -1,25 +1,36 @@
-    {% if site.footer_fixed %}
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
-        {%- if site.impressum_path -%}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-        {%- endif -%}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
+<footer class="footer bg-light" style="padding-bottom: 30px;">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col-md-6 text-center text-md-left" style="padding-top: 20px">
+        <h5>Contact</h5>
+        <p>
+          If you have any questions, please reach out to:<br>
+          <a href="mailto:jiayuandingjsnu@gmail.com">jiayuandingjsnu@gmail.com</a><br>
+          <a href="mailto:wei.jin@emory.edu">wei.jin@emory.edu</a>
+        </p>
       </div>
-    </footer>
-    {%- else -%}
-    <footer class="sticky-bottom mt-5">
-      <div class="container">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
-        {%- if site.impressum_path -%}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-        {%- endif -%}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
+
+      <div class="col-md-6 text-center text-md-left" style="padding-top: 20px">
+        <h5>Attribution</h5>
+        <p>
+          {% if page.cover_image.author %}
+          Cover image provided by {{ page.cover_image.author }} via
+          <a href="{{ page.cover_image.licence_link }}" target="_blank">{{ page.cover_image.licence_name }}</a>.<br>
+          {% endif %}
+          Website design adapted from the 
+          <a href="https://github.com/representational-alignment/representational-alignment.github.io" target="_blank">Re-Align Workshop</a> template.
+        </p>
       </div>
-    </footer>
-    {%- endif %}
+
+    </div>
+
+    <div class="row mt-4" style="padding-top: 20px; border-top: 1px solid #eaeaea;">
+      <div class="col-12 text-center">
+        <p class="mb-0 text-muted">
+          &copy; {{ page.year | default: "2026" }} SciSoc Agents & LLMs Workshop @ KDD. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
