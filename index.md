@@ -172,7 +172,12 @@ program_committee:
 schedule_intro: |
   Note that our tentative schedule currently has this planned for 13:00-17:00, but we will update accordingly once provided further guidance as to the standardized workshop schedule for KDD'26.
 
-  Our program will consist of the following main components: (1) invited keynotes from experts in the field of AI4Science coming from both industry and academia to create a synergistic atmosphere and to stimulate collaborations, (2) contributed research oral talks selected from the set of accepted works into SciSoc Agents & LLMs, (3) future directions panel discussion that will be composed of our keynote speakers given their expertise in this domain, and (4) contributed poster sessions both before lunch and after the final remarks to allow all those with works accepted into the workshop to present their work and socialize stimulating new ideas and potential collaborations.
+  Our program will consist of the following main components:
+  
+  1. **Invited keynotes** from experts in the field of AI4Science coming from both industry and academia to create a synergistic atmosphere and to stimulate collaborations.
+  2. **Contributed research oral talks** selected from the set of accepted works into SciSoc Agents & LLMs.
+  3. **Future directions panel discussion** that will be composed of our keynote speakers given their expertise in this domain.
+  4. **Contributed poster sessions** both before lunch and after the final remarks to allow all those with works accepted into the workshop to present their work and socialize stimulating new ideas and potential collaborations.
 
 schedule:
   - time: "13:00 - 13:10"
