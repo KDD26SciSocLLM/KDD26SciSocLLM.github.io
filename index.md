@@ -183,11 +183,11 @@ schedule:
     title: "Coffee break / Social Networking"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
   - time: "15:30 - 16:10"
+    title: "Keynote III"
+  - time: "16:10 - 16:40"
     title: "Contributed Research Oral Talks II"
-  - time: "16:00 - 16:10"
+  - time: "16:40 - 17:00"
     title: "Best Paper Award Ceremony & Final Remarks"
-  - time: "16:10 - 17:00"
-    title: "Contributed Research Poster Session"
 
 schedule_details: |
   ### Selection Process 
