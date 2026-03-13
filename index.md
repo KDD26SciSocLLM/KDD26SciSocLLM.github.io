@@ -1,7 +1,7 @@
 ---
 layout: workshop
 year: 2026
-date: August 9th, 2026
+date: August 10th, 2026
 location: KDD 2026
 openreview: "#"
 show_cfp: true
@@ -39,13 +39,13 @@ cfp:
 
   dates:
     - event: Workshop Paper Submission (AoE)
-      date: May 23rd, 2026
+      date: May 20th, 2026
     - event: Workshop Paper Notification
       date: June 8th, 2026
     - event: Final Submission of Program
       date: June 24th, 2026
     - event: Workshop Date
-      date: August 9th, 2026
+      date: August 10th, 2026
 
 speakers:
   - name: To be announced.
@@ -96,21 +96,12 @@ organizers:
     website: https://sites.google.com/view/yanliu-ai/home
 
 web_chairs:
-  - name: Zewen Liu
-    affiliation: PhD Student, Emory University
-    website: https://nuuuh.github.io/
-  - name: Dehai Min
-    affiliation: Master Student, Monash University
-    website: https://zhishanq.github.io/
-  - name: Juntong Ni
-    affiliation: PhD Student, Emory University
-    website: https://lingfenggold.github.io/
   - name: Zhongyu Xing
     affiliation: Incoming PhD Student, North Carolina State University
     website: https://xingzhongyu.github.io/
 
 news:
-  - content: 📢 The <a href="#cfp">Call for Papers</a> is OPEN! Submission deadline is May 23rd, 2026.
+  - content: 📢 The <a href="#cfp">Call for Papers</a> is OPEN! Submission deadline is May 20th, 2026.
   - content: The 2nd SciSoc Agents & LLMs Workshop was accepted at KDD 2026!
  
 about: |
@@ -132,7 +123,7 @@ about: |
 
   Autonomous agents and LLMs for scientific and societal advances represent an evolving concept that shifts the focus from simple question-answer tasks to broader and more impactful applications. They have demonstrated capabilities such as solving university-level math problems by generating solution code, supporting language translation, and answering questions on bar exams with high accuracy, all without additional training. 
 
-  Given the expanded scope and increasing power of agents and LLMs, their potential to significantly impact scientific discovery and societal progress is becoming increasingly evident. Agentic AI and LLMs have opened up vast opportunities for scaling and accelerating advancements across scientific and social domains. For example, **MetaAI** introduced the first science-specific LLM designed to support scientific discovery in research, while LLMs have also enabled large-scale computational social science research. 
+  Given the expanded scope and increasing power of agents and LLMs, their potential to significantly impact scientific discovery and societal progress is becoming increasingly evident. Agentic AI and LLMs have opened up vast opportunities for scaling and accelerating advancements across scientific and social domains.
 
   **The objective of this workshop is to explore recent advances in both the theoretical foundations and practical applications on science and society of agentic AI and LLMs.** We propose this workshop to serve as a platform where academic researchers and industry professionals can present and discuss cutting-edge research, real-world implementations, and new applications. This timing aligns perfectly with the current momentum in the field, making it an essential event for stakeholders aiming to shape the future of scientific and societal advancements. Moreover, the interdisciplinary nature of KDD encourages a broad spectrum of ideas and solutions, creating an optimal environment for investigating these applications.
 
@@ -155,7 +146,7 @@ about: |
         <li style="margin-bottom: 12px;">Enhancing <strong>code generation</strong> for scientific practitioners</li>
         <li style="margin-bottom: 12px;"><strong>Responsible, trustworthy, and ethical</strong> considerations of agent-based AI in society</li>
         <li style="margin-bottom: 12px;">Benchmarks, datasets, and evaluation protocols for agentic AI and LLM-based agents</li>
-        <li style="margin-bottom: 12px;"><strong>Agentic workflows</strong> for AI-driven experimentation, hypothesis generation, and validation</li>
+        <li style="margin-bottom: 12px;"><strong>Agentic workflows</strong> for AI-driven experimentation, hypothesis generation, and validation in healthcare, life sciences, and scientific discovery</li>
         <li style="margin-bottom: 12px;">Self-evolving agents with autonomous learning, adaptation, and continual improvement</li>
       </ul>
     </div>
