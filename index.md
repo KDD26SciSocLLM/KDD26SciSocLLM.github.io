@@ -100,6 +100,10 @@ web_chairs:
     affiliation: Incoming PhD Student, North Carolina State University
     website: https://xingzhongyu.github.io/
 
+  - name: Bibek Paudel
+    affiliation: Research Scientist, Hippocratic AI
+    website: https://www.linkedin.com/in/bibek-p/
+
 news:
   - content: 📢 The <a href="#cfp">Call for Papers</a> is OPEN! Submission deadline is May 20th, 2026.
   - content: The 2nd SciSoc Agents & LLMs Workshop was accepted at KDD 2026!
