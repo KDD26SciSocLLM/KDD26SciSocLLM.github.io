@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://kdd26scisocllm.github.io/sitemap.xml
