@@ -1,1 +1,1 @@
-# representational-alignment.github.io
+# KDD26SciSocLLM.github.io
