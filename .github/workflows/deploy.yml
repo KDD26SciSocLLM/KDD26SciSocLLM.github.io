@@ -3,7 +3,11 @@ name: Deploy Jekyll to GitHub Pages
 on:
   push:
     branches:
-      - master  # 监听 master 分支的改动
+      - master
+
+# 添加这个 permissions 区块
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -15,8 +19,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # 如果你的项目需要特定版本的 Ruby，请在这里修改
-          bundler-cache: true # 自动缓存 gems 以加快构建速度
+          ruby-version: '3.1'
+          bundler-cache: true
 
       - name: Build Jekyll site
         run: |
@@ -28,5 +32,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages  # ⚠️ 注意：如果你的分支名字精确地叫 github_pages，请将这里改为 github_pages
+          publish_branch: gh-pages  # 如果你的分支叫 github_pages，请修改这里
           commit_message: "Deploy from master"
