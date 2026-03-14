@@ -48,10 +48,18 @@ cfp:
       date: August 10th, 2026
 
 speakers:
-  - name: To be announced.
-    affiliation: 
-    website: 
-    image: 
+  - name: James Zou
+    affiliation: Stanford University
+    website: https://www.james-zou.com/
+    image: JZ.png
+  - name: Le Song
+    affiliation: GenBio AI
+    website: https://dasongle.github.io/
+    image: LS.jpg
+  - name: Nitesh Chawla
+    affiliation: University of Notre Dame
+    website: https://niteshchawla.nd.edu/bio/
+    image: NC.jpg
 
 organizers:
   - name: Jiayuan Ding
