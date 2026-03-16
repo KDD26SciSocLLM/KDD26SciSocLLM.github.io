@@ -77,7 +77,7 @@ organizers:
   - name: Yixin Wang
     affiliation: Stanford University
     image: YXW.jpg
-    website: https://www.yyixinwang.com/
+    website: https://scholar.google.com/citations?user=ykYrXtAAAAAJ&hl=en
   - name: Chanyoung Park
     affiliation: Korea Advanced Institute of Science and Technology
     image: CP.jpg
