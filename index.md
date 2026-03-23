@@ -165,7 +165,7 @@ about: |
   </div>
 
   <div style="background-color: #fafafa; padding: 20px 25px; border-radius: 8px; border-left: 4px solid #bf5700; margin-top: 30px;">
-    We enthusiastically invite submissions from diverse fields at the nexus of AI, science, and society, including but not limited to <strong>healthcare, environmental science, education, public policy, social science, chemistry, and biology</strong>.
+    We enthusiastically invite submissions from diverse fields at the nexus of AI, science, and society, including but not limited to <strong>healthcare, environmental science, education, public policy, e-commerce, social science, chemistry, and biology</strong>.
   </div>
 
 program_committee:
