@@ -108,13 +108,15 @@ web_chairs:
     affiliation: Research Scientist, Hippocratic AI
     website: https://www.linkedin.com/in/bibek-p/
 
+  - name: Zhongyu Xing
+    affiliation: Incoming PhD Student, North Carolina State University
+    website: https://xingzhongyu.github.io/
+
   - name: Bohan Wang
     affiliation: PhD Student, Emory University
     website: https://bohan7.github.io/
 
-  - name: Zhongyu Xing
-    affiliation: Incoming PhD Student, North Carolina State University
-    website: https://xingzhongyu.github.io/
+ 
 
   
   
