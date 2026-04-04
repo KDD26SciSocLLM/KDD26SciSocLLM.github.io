@@ -116,6 +116,10 @@ web_chairs:
     affiliation: PhD Student, Emory University
     website: https://bohan7.github.io/
 
+  - name: Jiaming Ding
+    affiliation: Software Engineer, Amazon
+    website: https://www.linkedin.com/in/jiaming-ding-48451221b/
+
  
 
   
