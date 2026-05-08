@@ -31,7 +31,7 @@ cfp:
 
     Final selections for a Best Paper, as well as recognitions for Best Presentation or Best Poster, will be announced at the end of the workshop.
 
-    All submissions must be uploaded electronically to OpenReview at: [Link to be updated for 2026].
+    All submissions must be uploaded electronically to OpenReview at: <https://openreview.net/group?id=KDD.org/2026/Workshop/SciSoc_Agents_and_LLMs>.
 
     At least one of the authors of the accepted workshop papers must register for the workshop and be present on the day of the workshop.
 
