@@ -3,7 +3,7 @@ layout: workshop
 year: 2026
 date: August 10th, 2026
 location: KDD 2026
-openreview: "#"
+openreview: "https://openreview.net/group?id=KDD.org/2026/Workshop/SciSoc_Agents_and_LLMs"
 show_cfp: true
 show_cfcr: false
 schedule_flag: true  
@@ -11,7 +11,7 @@ cover_image:
   image: "/assets/images/cover.png"
 
 buttons:
-  - text: Submission (Coming Soon)
+  - text: Submission
     url: "#cfp"
 
 cfp:
