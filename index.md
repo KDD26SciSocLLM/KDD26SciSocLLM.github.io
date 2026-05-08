@@ -29,7 +29,7 @@ cfp:
 
     Accepted papers will be made available on the workshop website but will not be part of the KDD’26 proceedings, as they are **non-archival**. This allows authors to submit works that are concurrently under review elsewhere or published.
 
-    Final selections for a Best Paper, as well as recognitions for Best Presentation or Best Poster, will be announced at the end of the workshop.
+    🏆 **Best Paper Award**: We will select and recognize outstanding submissions with a Best Paper Award! Final selections for a Best Paper, as well as recognitions for Best Presentation or Best Poster, will be announced at the end of the workshop.
 
     All submissions must be uploaded electronically to OpenReview at: <https://openreview.net/group?id=KDD.org/2026/Workshop/SciSoc_Agents_and_LLMs>.
 
@@ -127,6 +127,7 @@ web_chairs:
 
 news:
   - content: 📢 The <a href="#cfp">Call for Papers</a> is OPEN! Submission deadline is May 20th, 2026.
+  - content: 🏆 We are excited to announce the <strong>Best Paper Award</strong> to recognize outstanding submissions!
   - content: The 2nd SciSoc Agents & LLMs Workshop was accepted at KDD 2026!
  
 about: |
