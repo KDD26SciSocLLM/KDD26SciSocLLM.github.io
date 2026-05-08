@@ -128,7 +128,7 @@ web_chairs:
 news:
   - content: 📢 The <a href="#cfp">Call for Papers</a> is OPEN! Submission deadline is May 20th, 2026.
   - content: 🏆 We are excited to announce the <strong>Best Paper Award</strong> to recognize outstanding submissions!
-  - content: The 2nd SciSoc Agents & LLMs Workshop was accepted at KDD 2026!
+  - content: 🎉 The 2nd SciSoc Agents & LLMs Workshop was accepted at KDD 2026!
  
 about: |
   <p align="center">
