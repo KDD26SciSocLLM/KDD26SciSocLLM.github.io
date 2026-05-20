@@ -1,7 +1,7 @@
 ---
 layout: workshop
 year: 2026
-date: August 10th, 2026
+date: August 9th, 2026
 location: KDD 2026
 openreview: "https://openreview.net/group?id=KDD.org/2026/Workshop/SciSoc_Agents_and_LLMs"
 show_cfp: true
@@ -45,7 +45,7 @@ cfp:
     - event: Final Submission of Program
       date: June 24th, 2026
     - event: Workshop Date
-      date: August 10th, 2026
+      date: August 9th, 2026
 
 speakers:
   - name: James Zou
@@ -187,7 +187,7 @@ program_committee:
 
 
 schedule_intro: |
-  Note that our tentative schedule currently has this planned for 13:00-17:00, but we will update accordingly once provided further guidance as to the standardized workshop schedule for KDD'26.
+  Note that our tentative schedule currently has this planned for 8:00-12:00, but we will update accordingly once provided further guidance as to the standardized workshop schedule for KDD'26.
 
   Our program will consist of the following main components:
   
@@ -197,22 +197,22 @@ schedule_intro: |
   4. **Contributed poster sessions** both before lunch and after the final remarks to allow all those with works accepted into the workshop to present their work and socialize stimulating new ideas and potential collaborations.
 
 schedule:
-  - time: "13:00 - 13:10"
+  - time: "8:00 - 8:10"
     title: "Welcome & Opening Remarks"
-  - time: "13:10 - 13:50"
+  - time: "8:10 - 8:50"
     title: "Keynote I"
-  - time: "13:50 - 14:20"
+  - time: "8:50 - 9:20"
     title: "Contributed Research Oral Talks I"
-  - time: "14:20 - 15:00"
+  - time: "9:20 - 10:00"
     title: "Keynote II"
-  - time: "15:00 - 15:40"
+  - time: "10:00 - 10:40"
     title: "Break/Poster Session"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
-  - time: "15:40 - 16:20"
+  - time: "10:40 - 11:20"
     title: "Keynote III"
-  - time: "16:20 - 16:50"
+  - time: "11:20 - 11:50"
     title: "Contributed Research Oral Talks II"
-  - time: "16:50 - 17:00"
+  - time: "11:50 - 12:00"
     title: "Best Paper Award Ceremony & Final Remarks"
 
 schedule_details: |
