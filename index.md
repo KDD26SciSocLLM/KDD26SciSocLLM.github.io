@@ -5,6 +5,7 @@ date: August 9th, 2026
 location: KDD 2026
 openreview: "https://openreview.net/group?id=KDD.org/2026/Workshop/SciSoc_Agents_and_LLMs"
 show_cfp: true
+show_papers: true
 show_cfcr: false
 schedule_flag: true  
 cover_image:
@@ -48,10 +49,10 @@ cfp:
       date: August 9th, 2026
 
 speakers:
-  - name: James Zou
-    affiliation: Stanford University
-    website: https://www.james-zou.com/
-    image: JZ.png
+  - name: Fei Wang
+    affiliation: Cornell University
+    website: https://wcm-wanglab.github.io/
+    image: Fei_Wang.jpeg
   - name: Le Song
     affiliation: GenBio AI
     website: https://dasongle.github.io/
@@ -70,6 +71,10 @@ organizers:
     affiliation: Emory University
     image: WJ.jpg
     website: https://www.cs.emory.edu/~wjin30/
+  - name: Juntong Ni
+    affiliation: Emory University
+    image: JN.jpg
+    website: https://lingfenggold.github.io/
   - name: Carl Yang
     affiliation: Emory University
     image: CY.jpg
@@ -182,8 +187,6 @@ about: |
     We enthusiastically invite submissions from diverse fields at the nexus of AI, science, and society, including but not limited to <strong>healthcare, environmental science, education, public policy, e-commerce, social science, chemistry, and biology</strong>.
   </div>
 
-program_committee:
-  - name: To be announced.
 
 
 schedule_intro: |
@@ -193,26 +196,27 @@ schedule_intro: |
   
   1. **Invited keynotes** from experts in the field of AI4Science coming from both industry and academia to create a synergistic atmosphere and to stimulate collaborations.
   2. **Contributed research oral talks** selected from the set of accepted works into SciSoc Agents & LLMs.
-  3. **Future directions panel discussion** that will be composed of our keynote speakers given their expertise in this domain.
-  4. **Contributed poster sessions** both before lunch and after the final remarks to allow all those with works accepted into the workshop to present their work and socialize stimulating new ideas and potential collaborations.
+  3. **Contributed poster sessions** both before lunch and after the final remarks to allow all those with works accepted into the workshop to present their work and socialize stimulating new ideas and potential collaborations.
 
 schedule:
   - time: "8:00 - 8:10"
     title: "Welcome & Opening Remarks"
-  - time: "8:10 - 8:50"
-    title: "Keynote I James Zou"
-  - time: "8:50 - 9:20"
+  - time: "8:10 - 8:40"
+    title: "Keynote I Fei Wang"
+  - time: "8:40 - 9:10"
     title: "Contributed Research Oral Talks I"
-  - time: "9:20 - 10:00"
+  - time: "9:10 - 9:40"
     title: "Keynote II Le Song"
-  - time: "10:00 - 10:40"
-    title: "Break/Poster Session"
+  - time: "9:40 - 10:00"
+    title: "Break / Poster Session"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
-  - time: "10:40 - 11:20"
+  - time: "10:00 - 10:30"
+    title: "Oral Presentations from KDD AI4Science Main Track"
+  - time: "10:30 - 11:00"
     title: "Keynote III Nitesh Chawla"
-  - time: "11:20 - 11:50"
+  - time: "11:00 - 11:30"
     title: "Contributed Research Oral Talks II"
-  - time: "11:50 - 12:00"
+  - time: "11:30 - 12:00"
     title: "Best Paper Award Ceremony & Final Remarks"
 
 schedule_details: |
@@ -225,8 +229,108 @@ schedule_details: |
   ### Presentation Order
 
   #### In-Person
-  *[To Be Determined after the review process is complete]*
 
-  #### Online
-  *[To Be Determined after the review process is complete]*
+  <h5 class="mt-4">Contributed Research Oral Talks I</h5>
+  <table class="table table-bordered table-hover bg-white shadow-sm">
+    <thead class="thead-light">
+      <tr>
+        <th style="width: 25%;">Time</th>
+        <th style="width: 75%;">Presentation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="font-weight-bold align-middle">8:40 - 8:45</td>
+        <td>OmicsDefense: The First Unified Framework for Defending Against Backdoor Attacks in Single-cell Foundation Models</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">8:45 - 8:50</td>
+        <td>Escalation without Understanding: Behavioral Patterns of LLM Agents in Dollar Auctions</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">8:50 - 8:55</td>
+        <td>ReplicatorBench: Benchmarking LLM Agents on Replicability Studies in Social and Behavioral Sciences</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">8:55 - 9:00</td>
+        <td>Second Thoughts: Revisable Trailing Context in LLM-Grounded Clinical Speech</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">9:00 - 9:05</td>
+        <td>Self-Improving Agent Factories for Paper Review: When Constrained Beats Open-Ended</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">9:05 - 9:10</td>
+        <td>SciLens: Multi-modal Scientific Claim Verification with Agentic Entailment and Grounding</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h5 class="mt-5">Oral Presentations from KDD AI4Science Main Track</h5>
+  <table class="table table-bordered table-hover bg-white shadow-sm">
+    <thead class="thead-light">
+      <tr>
+        <th style="width: 25%;">Time</th>
+        <th style="width: 75%;">Presentation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="font-weight-bold align-middle">10:00 - 10:06</td>
+        <td>Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">10:06 - 10:12</td>
+        <td>Curiosity-Driven Questioning for Engine-Agnostic LLM Research Ideation</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">10:12 - 10:18</td>
+        <td>SimuGov: A Simulation Optimization Framework for Generative AI Governance Strategy Design</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">10:18 - 10:24</td>
+        <td>HD-Prot: A Protein Language Model for Joint Sequence-Structure Modeling with Continuous Structure Tokens</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">10:24 - 10:30</td>
+        <td>Natural Language-powered Functional Protein Sequence and Structure Co-Design with Multi-modal Knowledge Fusion</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h5 class="mt-5">Contributed Research Oral Talks II</h5>
+  <table class="table table-bordered table-hover bg-white shadow-sm">
+    <thead class="thead-light">
+      <tr>
+        <th style="width: 25%;">Time</th>
+        <th style="width: 75%;">Presentation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="font-weight-bold align-middle">11:00 - 11:05</td>
+        <td>A Structured LLM Framework for Inorganic Material Synthesis Planning</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">11:05 - 11:10</td>
+        <td>Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">11:10 - 11:15</td>
+        <td>Simulate, Reason, Decide: Scientific Reasoning with LLMs for Simulation-Driven Decision Making</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">11:15 - 11:20</td>
+        <td>A Domain-Grounded Agentic Assistant for Lipid Nanoparticle Formulation Research</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">11:20 - 11:25</td>
+        <td>Communication-Efficient Safety Coordination for Large Populations of LLM Web Agents</td>
+      </tr>
+      <tr>
+        <td class="font-weight-bold align-middle">11:25 - 11:30</td>
+        <td>FinSTaR: Towards Financial Reasoning with Time Series Reasoning Models</td>
+      </tr>
+    </tbody>
+  </table>
 ---

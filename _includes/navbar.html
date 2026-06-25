@@ -19,41 +19,45 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#about">About</a>
+          <a class="scroll-link nav-link" href="{{ '/#about' | relative_url }}">About</a>
         </li>
         {% if page.show_cfp %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#cfp">Call for papers</a>
+          <a class="scroll-link nav-link" href="{{ '/#cfp' | relative_url }}">Call for papers</a>
+        </li>
+        {% endif %} {% if page.show_papers or page.papers %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/accepted-papers/' | relative_url }}">Accepted Papers</a>
         </li>
         {% endif %} {% if page.show_cfcr %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#cfcr"
+          <a class="scroll-link nav-link" href="{{ '/#cfcr' | relative_url }}"
             >Call for challenge reports</a
           >
         </li>
         {% endif %} {% if page.hackathon %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#hackathon">Hackathon</a>
+          <a class="scroll-link nav-link" href="{{ '/#hackathon' | relative_url }}">Hackathon</a>
         </li>
         {% endif %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#speakers">Speakers</a>
+          <a class="scroll-link nav-link" href="{{ '/#speakers' | relative_url }}">Speakers</a>
         </li>
-        {% if page.schedule %}
+        {% if page.schedule_flag or page.schedule %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#schedule">Schedule</a>
+          <a class="scroll-link nav-link" href="{{ '/#schedule' | relative_url }}">Schedule</a>
         </li>
         {% endif %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#organizers">Organizers</a>
+          <a class="scroll-link nav-link" href="{{ '/#organizers' | relative_url }}">Organizers</a>
         </li>
         {% if page.program_committee %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#program-committee">PC</a>
+          <a class="scroll-link nav-link" href="{{ '/#program-committee' | relative_url }}">PC</a>
         </li>
         {% endif %} {% if page.sponsors %}
         <li class="nav-item">
-          <a class="scroll-link nav-link" href="#sponsors">Sponsor</a>
+          <a class="scroll-link nav-link" href="{{ '/#sponsors' | relative_url }}">Sponsor</a>
         </li>
         {% endif %} 
       </ul>

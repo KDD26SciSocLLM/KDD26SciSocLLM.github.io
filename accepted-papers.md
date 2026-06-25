@@ -1,0 +1,68 @@
+---
+layout: default
+title: Accepted Papers
+permalink: /accepted-papers/
+year: 2026
+show_cfp: true
+show_papers: true
+schedule_flag: true
+papers:
+  - title: "OmicsDefense: The First Unified Framework for Defending Against Backdoor Attacks in Single-cell Foundation Models"
+    url: "https://openreview.net/forum?id=y7P5FbHzdv"
+  - title: "Escalation without Understanding: Behavioral Patterns of LLM Agents in Dollar Auctions"
+    url: "https://openreview.net/forum?id=vZyaniYuuw"
+  - title: "ReplicatorBench: Benchmarking LLM Agents on Replicability Studies in Social and Behavioral Sciences"
+    url: "https://openreview.net/forum?id=LpSYWZfTFi"
+  - title: "Second Thoughts: Revisable Trailing Context in LLM-Grounded Clinical Speech"
+    url: "https://openreview.net/forum?id=HO6cfLL050"
+  - title: "Self-Improving Agent Factories for Paper Review: When Constrained Beats Open-Ended"
+    url: "https://openreview.net/forum?id=4oqr2OIXVx"
+  - title: "SciLens: Multi-modal Scientific Claim Verification with Agentic Entailment and Grounding"
+    url: "https://openreview.net/forum?id=EzgqtiVuz9"
+  - title: "A Structured LLM Framework for Inorganic Material Synthesis Planning"
+    url: "https://openreview.net/forum?id=4UtSgrJJ8N"
+  - title: "Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs"
+    url: "https://openreview.net/forum?id=LhgD1NMTCu"
+  - title: "Simulate, Reason, Decide: Scientific Reasoning with LLMs for Simulation-Driven Decision Making"
+    url: "https://openreview.net/forum?id=P0afotXtdn"
+  - title: "A Domain-Grounded Agentic Assistant for Lipid Nanoparticle Formulation Research"
+    url: "https://openreview.net/forum?id=jKVWNdD7QR"
+  - title: "Communication-Efficient Safety Coordination for Large Populations of LLM Web Agents"
+    url: "https://openreview.net/forum?id=vFY7kyvNi6"
+  - title: "FinSTaR: Towards Financial Reasoning with Time Series Reasoning Models"
+    url: "https://openreview.net/forum?id=6EIvNnqTeA"
+  - title: "EpiAgent: LLM-Augmented SEIR Agents for Epidemiological Forecasting with Lyapunov-Bounded Forecast Error"
+    url: "https://openreview.net/forum?id=Sp0OKvHACE"
+  - title: "BioSkillSafety: A Systematic Benchmark for Evaluating Agent Skill Safety in Bioinformatics"
+    url: "https://openreview.net/forum?id=fa4Obft2xN"
+  - title: "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols"
+    url: "https://openreview.net/forum?id=hpoiLAxePn"
+  - title: "Behavioral Determinants of Deployed AI Agents in Social Networks: A Multi-Factor Study of Personality, Model, and Guardrail Specification"
+    url: "https://openreview.net/forum?id=2DiMbG3lI8"
+  - title: "GridMind: An Agentic Workflow for Weather-Driven Power Grid Risk Assessment"
+    url: "https://openreview.net/forum?id=Cs5TBzzNym"
+  - title: "Continuous Improvement and Parallel Autonomous Exploration: An LLM-Agent Framework for Searching Large Solution Spaces"
+    url: "https://openreview.net/forum?id=oqJJMEyez9"
+  - title: "Structured LLM Pipelines for Context-Aware Hospitalization Forecasting"
+    url: "https://openreview.net/forum?id=hZrCfDeqVr"
+  - title: "AIDEN: An Agentic Intention-Driven Assistant for Exploration and Navigation of Data Lakes"
+    url: "https://openreview.net/forum?id=cwJIHSOLZy"
+  - title: "LLMoxie: Exploring Agentic AI for Scientific Software Development"
+    url: "https://openreview.net/forum?id=KsNQ5A0cKh"
+  - title: "Beyond Preference Matching: Towards Need-Aware Personalized Large Language Models"
+    url: "https://openreview.net/forum?id=v2nmZYdomg"
+  - title: "MedSkill: Progressive Skill Enrichment for Structured Clinical Information Extraction"
+    url: "https://openreview.net/forum?id=fCkt6L2Lik"
+  - title: "AeroNoxis: Retrieval-Grounded Multi-Agent Design of Industrial Waste-Gas Treatment Trains"
+    url: "https://openreview.net/forum?id=CVjsXfBRg9"
+  - title: "Dignity-Preserving Teach-Back Agents for Medical After-Visit Summaries"
+    url: "https://openreview.net/forum?id=zPjnMVKmqY"
+  - title: "MSAgent: An Evidence Grounded Agentic Framework for Autonomous Scientific Exploration in Mass Spectrometry-based Metabolomics"
+    url: "https://openreview.net/forum?id=9tGEoyWe5R"
+  - title: "Think-Before-Speak: From Internal Evaluation to Public Expression in Multi-Agent Social Simulation"
+    url: "https://openreview.net/forum?id=EPlbqyiNUO"
+  - title: "TheEvolutionofLLMSafetyArchitectures: FromPrompt-LevelDefensestoSystemicAlignment Pipelines"
+    url: "https://openreview.net/forum?id=X3S1u6WtJ9"
+---
+
+{% include papers.html %}
