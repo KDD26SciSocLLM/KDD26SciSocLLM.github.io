@@ -200,6 +200,8 @@ section .section-heading { display: flex; flex-direction: column; align-items: f
 section .section-heading h3 { font-size: 32px; color: #333; margin-bottom: 8px; font-weight: 500; }
 section .section-heading .separator-div { border-radius: 4px; height: 8px; width: 64px; background-color: #fbd935; border: none; margin-top: 8px; margin-bottom: 16px; }
 
+.standalone-section { padding-top: 84px; }
+
 .about-section .container, .speakers-section .container, .organizers-section .container { max-width: 1200px; margin: 0 auto; }
 
 #dates .table, #cfp .table, #cfcr .table { width: 100%; background-color: #fff; border-radius: 4px; border-collapse: collapse; }
