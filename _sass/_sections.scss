@@ -10,6 +10,10 @@ section {
   }
 }
 
+.standalone-section {
+  padding-top: $section-padding + 24px;
+}
+
 .about-section,
 .speakers-section,
 .organizers-section {

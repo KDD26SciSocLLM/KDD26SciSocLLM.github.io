@@ -6,6 +6,7 @@ year: 2026
 show_cfp: true
 show_papers: true
 schedule_flag: true
+papers_standalone: true
 papers:
   - title: "OmicsDefense: The First Unified Framework for Defending Against Backdoor Attacks in Single-cell Foundation Models"
     url: "https://openreview.net/forum?id=y7P5FbHzdv"
