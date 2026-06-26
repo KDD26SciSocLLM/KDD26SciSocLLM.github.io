@@ -15,10 +15,10 @@
           {% for paper in category.papers %}
           <li>
             <span>{{ paper.title }}</span>
-            <a href="{{ paper.url }}" target="_blank">Paper Link</a>
             {% if paper.authors %}
             <span class="authors">{{ paper.authors }}</span>
             {% endif %}
+            <a href="{{ paper.url }}" target="_blank">Paper Link</a>
           </li>
           {% endfor %}
         </ul>
@@ -27,10 +27,10 @@
           {% for paper in page.papers %}
           <li>
             <span>{{ paper.title }}</span>
-            <a href="{{ paper.url }}" target="_blank">Paper Link</a>
             {% if paper.authors %}
             <span class="authors">{{ paper.authors }}</span>
             {% endif %}
+            <a href="{{ paper.url }}" target="_blank">Paper Link</a>
           </li>
           {% endfor %}
         </ul>

@@ -71,10 +71,6 @@ organizers:
     affiliation: Emory University
     image: WJ.jpg
     website: https://www.cs.emory.edu/~wjin30/
-  - name: Juntong Ni
-    affiliation: Emory University
-    image: JN.jpg
-    website: https://lingfenggold.github.io/
   - name: Carl Yang
     affiliation: Emory University
     image: CY.jpg
@@ -112,6 +108,10 @@ web_chairs:
   - name: Bibek Paudel
     affiliation: Research Scientist, Hippocratic AI
     website: https://www.linkedin.com/in/bibek-p/
+
+  - name: Juntong Ni
+    affiliation: Emory University
+    website: https://lingfenggold.github.io/
 
   - name: Zhongyu Xing
     affiliation: Incoming PhD Student, North Carolina State University
