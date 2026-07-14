@@ -211,7 +211,7 @@ schedule:
     title: "Break / Poster Session"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
   - time: "10:00 - 10:30"
-    title: "Oral Presentations from KDD AI4Science Main Track"
+    title: "AI4Sciences Track Lightning Talks"
   - time: "10:30 - 11:00"
     title: "Keynote III Nitesh Chawla"
   - time: "11:00 - 11:30"
@@ -266,7 +266,7 @@ schedule_details: |
     </tbody>
   </table>
 
-  <h5 class="mt-5">Oral Presentations from KDD AI4Science Main Track</h5>
+  <h5 class="mt-5">AI4Sciences Track Lightning Talks</h5>
   <table class="table table-bordered table-hover bg-white shadow-sm">
     <thead class="thead-light">
       <tr>
