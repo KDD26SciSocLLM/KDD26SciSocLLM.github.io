@@ -53,10 +53,10 @@ speakers:
     affiliation: Cornell University
     website: https://wcm-wanglab.github.io/
     image: Fei_Wang.jpeg
-  - name: Le Song
-    affiliation: GenBio AI
-    website: https://dasongle.github.io/
-    image: LS.jpg
+  - name: Jing Su
+    affiliation: Indiana University
+    website: https://medicine.iu.edu/faculty/51979/su-jing
+    image: JS.webp
   - name: Nitesh Chawla
     affiliation: University of Notre Dame
     website: https://niteshchawla.nd.edu/bio/
@@ -206,7 +206,7 @@ schedule:
   - time: "8:40 - 9:10"
     title: "Contributed Research Oral Talks I"
   - time: "9:10 - 9:40"
-    title: "Keynote II Le Song"
+    title: "Keynote II Jing Su"
   - time: "9:40 - 10:00"
     title: "Break / Poster Session"
     highlight: "warning" # 模板支持高亮，warning 通常是黄色背景，适合休息时间
